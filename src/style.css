@@ -1,11 +1,19 @@
 body {
-	background-color: white;
+	background-image: url('../images/White-Brick.jpg');
 }
 
 @font-face {
 	font-family: 'royal_fighterregular';
-	src: url('royalfighter-vm3dz-webfont.eot');
-	src: url('royalfighter-vm3dz-webfont.eot?#iefix') format('embedded-opentype'), url('royalfighter-vm3dz-webfont.woff2') format('woff2'), url('royalfighter-vm3dz-webfont.woff') format('woff'), url('royalfighter-vm3dz-webfont.ttf') format('truetype'), url('royalfighter-vm3dz-webfont.svg#royal_fighterregular') format('svg');
+	src: url('../webfontkit-20190918-142310/royalfighter-vm3dz-webfont.eot');
+	src: url('../webfontkit-20190918-142310/royalfighter-vm3dz-webfont.eot?#iefix') format('embedded-opentype'), url('../webfontkit-20190918-142310/royalfighter-vm3dz-webfont.woff2') format('woff2'), url('../webfontkit-20190918-142310/royalfighter-vm3dz-webfont.woff') format('woff'), url('../webfontkit-20190918-142310/royalfighter-vm3dz-webfont.ttf') format('truetype'), url('../webfontkit-20190918-142310/royalfighter-vm3dz-webfont.svg#royal_fighterregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
+}
+
+.navbar-brand {
+	font-family: royal_fighterregular;
+}
+
+.nav-link {
+	font-family: royal_fighterregular;
 }
