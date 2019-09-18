@@ -1,12 +1,6 @@
-const getStuff = async () => {
-	const result = await fetch('https://jsonplaceholder.typicode.com/todos')
-		.then(response => response.json())
-		.catch(response => console.error(response))
+let data
 
-	const box = document.querySelector('#box')
-
-	box.innerHTML = JSON.stringify(result)
+document.body.onload = async () => {
+	data = await fetch('data.json')
+		.then(res => res.json())
 }
-
-const button = document.querySelector('button#button')
-button.addEventListener('onclick', getStuff())
