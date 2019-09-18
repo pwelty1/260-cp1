@@ -17,3 +17,7 @@ body {
 .nav-link {
 	font-family: royal_fighterregular;
 }
+ 
+.navbar-nav {
+	float: right;
+}
