@@ -1,5 +1,5 @@
 body {
-	background: url('images/White-Brick.jpg');
+	background: url('images/tile.jpg');
 }
 
 @font-face {
@@ -17,7 +17,43 @@ body {
 .nav-link {
 	font-family: royal_fighterregular;
 }
- 
+
 .navbar-nav {
 	float: right;
+}
+
+/* Masonry */
+
+.masonry {
+	column-count: 4;
+	column-gap: 1em;
+
+}
+
+.item {
+	background-color: #eee;
+	display: inline-block;
+	margin: 0 0 1em;
+	width: 100%;
+	border-radius: 3px;
+	-webkit-transition: all 1s ease;
+ 	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+}
+
+.item:hover {
+	
+}
+
+main {
+	min-height: calc(100vh - 56px - 3rem);
+	margin: 3rem 0;
+}
+
+footer {
+	background-color: #fafafa;
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
